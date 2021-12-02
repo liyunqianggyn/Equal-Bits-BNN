@@ -2,8 +2,7 @@
 This is the PyTorch implementation of accepted AAAI 2021 paper: [Equal Bits: Enforcing Equally Distributed Binary Network Weights]
 
 
-
-
+Waiting for the code！
 
 
 
