@@ -1,5 +1,5 @@
 # Equal Bits: Enforcing Equally Distributed Binary Network Weights
-This is the PyTorch implementation of accepted AAAI 2021 paper: [Equal Bits: Enforcing Equally Distributed Binary Network Weights](https://arxiv.org/submit/4057174/view)
+This is the PyTorch implementation of accepted AAAI 2022 paper: [Equal Bits: Enforcing Equally Distributed Binary Network Weights](https://arxiv.org/submit/4057174/view)
 
 
 Waiting for the code！
