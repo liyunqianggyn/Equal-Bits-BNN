@@ -5,9 +5,8 @@ This is the PyTorch implementation of accepted AAAI 2022 paper: [Equal Bits: Enf
 ### Glance
 
 ```
-settings ── Toy Example ── ── ── ── CIFAR10 ── ── ── ── CIFAR100 ── ── ── ── ImageNet     
-               └── toy_example.py     └── trainer.py        └──                 └── 
-
+settings ── Toy Example ── ── ──CIFAR10 ── ── ── CIFAR100 ── ── ── ImageNet     
+             └── toy_example.py   └── trainer.py   └──              └── 
     	     			       
 ```
 
