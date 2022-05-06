@@ -16,9 +16,9 @@ settings ── Toy Example ── ── ──CIFAR10 ── ── ── CIF
 	<tbody>
     <tr>
 			<td>  </td>
-			<td align="center"> Full binary network:  combinations/solutions (512/30) </td>
-			<td align="center"> Pruned subnetwork:  combinations/solutions (2304/109) </td>
-			<td align="center"> Bi-half subnetwork: combinations/solutions (630/98) </td>
+			<td align="center"> Full binary network:  combinations/solutions (4096/76) </td>
+			<td align="center"> Bi-half subnetwork:  combinations/solutions (924/66) </td>
+			<td align="center"> Solution space vs bit-ratios </td>
 		</tr>
 		<tr>
 			<td width="19%" align="center"> Decision Boundaries </td>
