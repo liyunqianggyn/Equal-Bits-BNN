@@ -30,6 +30,19 @@ settings ── Toy Example ── ── ──CIFAR10 ── ── ── CIF
 </table>
 
 
+## Citation
+
+If you find the code in this repository useful for your research consider citing it.
+
+```
+@article{li2021equal,
+  title={Equal Bits: Enforcing Equally Distributed Binary Network Weights},
+  author={Li, Yunqiang and Pintea, Silvia L and van Gemert, Jan C},
+  journal={AAAI},
+  year={2022}
+}
+```
+
 ## Contact
 If you have any problem about our code, feel free to contact
 
