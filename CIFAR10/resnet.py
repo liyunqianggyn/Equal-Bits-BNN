@@ -24,6 +24,8 @@ class EBConv2d(nn.Conv2d):
         gain = nn.init.calculate_gain(parser_args.nonlinearity)
         std = gain / math.sqrt(fan)
         self.rescale.data = torch.ones_like(self.weight.data) * std
+        if parser_args.cuda:
+            self.rescale = self.rescale.cuda()
 
     @property
     def clamped_scores(self):

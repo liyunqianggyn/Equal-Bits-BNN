@@ -36,8 +36,8 @@ class half(autograd.Function):
         B_creat = torch.FloatTensor(B_creat)
         allones = torch.zeros(flat_out.size())
         if parser_args.cuda:
-            B_creat.cuda()
-            allones.cuda()
+            B_creat = B_creat.cuda()
+            allones = allones.cuda()
         out = allones.scatter_(1, index_fea, B_creat)
         out = out.view(scores.size())
 
@@ -68,8 +68,8 @@ class halfmask(autograd.Function):
         B_creat = torch.FloatTensor(B_creat)
         allones = torch.zeros(flat_out.size())
         if parser_args.cuda:
-            B_creat.cuda()
-            allones.cuda()
+            B_creat = B_creat.cuda()
+            allones = allones.cuda()
         out = allones.scatter_(1, index_fea, B_creat)
         out = out.view(scores.size())
         return out
